@@ -1,0 +1,2 @@
+/Users/filipecarvalho/DevProjects/jd008-vr-2026.2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt
+/Users/filipecarvalho/DevProjects/jd008-vr-2026.2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt

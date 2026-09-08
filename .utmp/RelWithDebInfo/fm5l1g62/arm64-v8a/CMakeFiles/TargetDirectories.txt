@@ -1,0 +1,5 @@
+/Users/filipecarvalho/DevProjects/jd008-vr-2026.2/.utmp/RelWithDebInfo/fm5l1g62/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/filipecarvalho/DevProjects/jd008-vr-2026.2/.utmp/RelWithDebInfo/fm5l1g62/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/filipecarvalho/DevProjects/jd008-vr-2026.2/.utmp/RelWithDebInfo/fm5l1g62/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/filipecarvalho/DevProjects/jd008-vr-2026.2/.utmp/RelWithDebInfo/fm5l1g62/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/filipecarvalho/DevProjects/jd008-vr-2026.2/.utmp/RelWithDebInfo/fm5l1g62/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
