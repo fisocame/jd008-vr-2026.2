@@ -7,11 +7,24 @@ public class DoorController : MonoBehaviour, IActivatable
     public Vector3 closedEuler = Vector3.zero;
     public Vector3 openEuler = new Vector3(0f, 90f, 0f);
     public float speed = 3f;
+
+    public AudioSource audioSource;
+    public AudioClip somRangidoAbrindo;
+    public AudioClip somRangidoFechando;
+
     Coroutine co;
 
     void Reset() { doorHinge = transform; }
-    public void Activate() => StartMove(openEuler);
-    public void Deactivate() => StartMove(closedEuler);
+    public void Activate() 
+    {
+        StartMove(openEuler); 
+        TocarSomAbrindo();
+    }
+    public void Deactivate() 
+    {
+        StartMove(closedEuler); 
+        TocarSomFechando();
+    }
 
     void StartMove(Vector3 targetEuler)
     {
@@ -31,6 +44,16 @@ public class DoorController : MonoBehaviour, IActivatable
             yield return null;
         }
         doorHinge.localRotation = target;
+    }
+
+    public void TocarSomAbrindo()
+    {
+        audioSource.PlayOneShot(somRangidoAbrindo);
+    }
+    
+    public void TocarSomFechando()
+    {
+        audioSource.PlayOneShot(somRangidoFechando);
     }
 }
 
